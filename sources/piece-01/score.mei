@@ -9,6 +9,7 @@
             <respStmt xml:id="respStmt-1">
                <persName xml:id="persName-1" role="composer">Beethoven's Ghost</persName>
                            <persName xml:id="persName-4" role="contributor">ohwjdev</persName>
+               <persName role="contributor">ohwjd</persName>
 </respStmt>
          </titleStmt>
          <pubStmt xml:id="pubStmt-1">
@@ -25,7 +26,10 @@
             <application version="1" xml:id="lets-encode">
                <name xml:id="name-1">Let's Encode!</name>
             </application>
-         </appInfo>
+                     <application xml:id="app-mei-friend">
+               <name>mei-friend</name>
+            </application>
+</appInfo>
       </encodingDesc>
       <manifestationList xml:id="manifestationList-1">
          <manifestation xml:id="manifestation-1">
@@ -63,6 +67,14 @@
             </respStmt>
             <changeDesc>
                <p>Set up the score (P0002)</p>
+            </changeDesc>
+         </change>
+         <change n="4" isodate="2026-09-15">
+            <respStmt>
+               <persName>ohwjd</persName>
+            </respStmt>
+            <changeDesc>
+               <p>add note</p>
             </changeDesc>
          </change>
 </revisionDesc>
@@ -119,7 +131,7 @@
                <measure xml:id="measure-1" n="1" facs="#zone-1-1">
                   <staff xml:id="staff-1" n="1">
                      <layer xml:id="layer-1" n="1">
-                        <mRest xml:id="mRest-1"/>
+                        <note pname="c" oct="5" dur="1"/>
                      </layer>
                   </staff>
                   <staff xml:id="staff-2" n="2">
